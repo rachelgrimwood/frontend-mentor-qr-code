@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(212, 45%, 89%);
+  height: 100vh;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+.qr-component {
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 80%;
+  max-width: 18rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+img {
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+h1 {
+  color: hsl(218, 44%, 22%);
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+p {
+  color: hsl(220, 15%, 55%);
+}
+
+.text {
+  padding: 1rem;
+  margin: 0;
+}
+
+.attribution {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto;
+  font-size: 11px;
+}
+
+.attribution p {
+  margin: 1rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
