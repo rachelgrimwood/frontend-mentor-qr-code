@@ -1,12 +1,16 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: hsl(212, 45%, 89%);
   height: 100vh;
   text-align: center;
   font-family: Outfit;
   font-size: 15px;
   box-sizing: border-box;
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+  background-color: var(--light-gray);
 }
 
 .qr-component {
@@ -22,7 +26,7 @@ body {
   flex-direction: column;
   justify-content: center;
   padding: 1rem;
-  background-color: white;
+  background-color: var(--white);
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
@@ -34,13 +38,13 @@ img {
 }
 
 h1 {
-  color: hsl(218, 44%, 22%);
+  color: var(--dark-blue);
   margin: 0;
   font-size: 1.4rem;
 }
 
 p {
-  color: hsl(220, 15%, 55%);
+  color: var(--grayish-blue);
 }
 
 .text {
