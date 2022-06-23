@@ -11,6 +11,12 @@ body {
   --grayish-blue: hsl(220, 15%, 55%);
   --dark-blue: hsl(218, 44%, 22%);
   background-color: var(--light-gray);
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
 }
 
 .qr-component {
@@ -50,14 +56,6 @@ p {
 .text {
   padding: 1rem;
   margin: 0;
-}
-
-.attribution {
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  margin: 0 auto;
-  font-size: 11px;
 }
 
 .attribution p {
